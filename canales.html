@@ -41,7 +41,46 @@
 </head>
 <body>
   
-  <section data-bs-version="5.1" class="content4 cid-teYh1gebIb" id="content4-d">
+  <section data-bs-version="5.1" class="menu menu3 cid-tf3B4FM0o0" once="menu" id="menu3-2b">
+    
+    <nav class="navbar navbar-dropdown navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="index.html">
+                        <img src="assets/images/photo-2022-08-20-19.32.27.jpeg" alt="" style="height: 3rem;">
+                    </a>
+                </span>
+                
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="canales.html" style="font-size: 25px">CANALES</a></li>
+                    <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="guia-deportiva.html" style="font-size: 25px">guía deportiva</a></li>
+                    <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="chats.html" style="font-size: 25px">GRUPOS DE CHAT</a>
+                    </li><li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="faq.html" style="font-size: 25px">F.A.Q</a></li></ul>
+                <div class="icons-menu" style="padding-left: 23px; padding-bottom: 5px">
+                    
+                        <a href="buscar.html"><span class="p-2 mbr-iconfont mobi-mbri-search mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 30px;"></span></a>
+                    
+                    
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+</section>
+
+<section data-bs-version="5.1" class="content4 cid-teYh1gebIb" id="content4-d">
     
 
     
@@ -59,80 +98,7 @@
     </div>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-1y" data-rv-view="60">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="aviso-idioma-ufc" tabindex="-1" role="dialog" aria-labelledby="aviso-idioma-ufcLabel" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="aviso-idioma-ufcLabel">🇪🇸❌ Idioma Distinto</h5>  <a href="#" class="no-anim close" data-bs-dismiss="modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="aviso-idioma-ufc_body">Este canal está únicamente disponible en un idioma distinto al Español/Castellano.<br><br>Si deseas continuar con su visionado, pulsa el botón de a continuación.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-bs-dismiss="modal" data-dismiss="modal">Volver Atrás</a></div><div class="mbr-section-btn"><a href="acestream://d2374e2375a4275738e0dbed2f47d0114ad1cb64" class="no-anim btn btn-primary display-4">Ver Canal</a></div></div>    </div>  </div></div><script> 
-document.addEventListener("DOMContentLoaded", function() { 
-  if(typeof jQuery === "function") {
-    $("#aviso-idioma-ufc").on("hidden.bs.modal", function () { 
-      var html = $( "#aviso-idioma-ufc_body" ).html(); 
-      $( "#aviso-idioma-ufc_body" ).empty(); 
-      $( "#aviso-idioma-ufc_body" ).append(html); 
-    }) 
-  } else { 
-      var mdw = document.getElementById("#aviso-idioma-ufc") 
-      mdw.addEventListener("hidden.bs.modal", function(event) { 
-        mdw.innerHTML = mdw.innerHTML; 
-      }); 
-  } 
-}); 
-</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if(typeof jQuery === "function") {
-				if ($('#' + modalName).length)
-					$('#' + modalName).modal('show');
-				else
-					alert("Sorry, but there is no modal for " + modalName);
-			} else {
-				let mdw = new bootstrap.Modal(document.getElementById(modalName), {});
-				mdw.show();
-			}
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section>
-
-<section class="mbr-section" id="witsec-modal-window-block-47" data-rv-view="61">
+<section class="mbr-section" id="witsec-modal-window-block-47" data-rv-view="64">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -205,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-48" data-rv-view="62">
+<section class="mbr-section" id="witsec-modal-window-block-48" data-rv-view="65">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -574,7 +540,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="item features-image сol-12 col-md-6 col-lg-3">
                 <div class="item-wrapper">
                     <div class="item-img">
-                        <a href="javascript:OpenModal('aviso-idioma-ufc')"><img src="assets/images/nuevo-proyecto-12.png" alt=""></a>
+                        <a href="javascript:OpenModal('aviso-canal-no-disponible')"><img src="assets/images/nuevo-proyecto-12.png" alt=""></a>
                     </div>
                     
                     
@@ -643,45 +609,6 @@ document.addEventListener("DOMContentLoaded", function() {
             </div>
         </div>
     </div>
-</section>
-
-<section data-bs-version="5.1" class="menu menu3 cid-tf3B4FM0o0" once="menu" id="menu3-2b">
-    
-    <nav class="navbar navbar-dropdown navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="index.html">
-                        <img src="assets/images/photo-2022-08-20-19.32.27.jpeg" alt="" style="height: 3rem;">
-                    </a>
-                </span>
-                
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="canales.html" style="font-size: 25px">CANALES</a></li>
-                    <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="guia-deportiva.html" style="font-size: 25px">guía deportiva</a></li>
-                    <li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="chats.html" style="font-size: 25px">GRUPOS DE CHAT</a>
-                    </li><li class="nav-item"><a class="nav-link link text-secondary text-primary display-4" href="faq.html" style="font-size: 25px">F.A.Q</a></li></ul>
-                <div class="icons-menu" style="padding-left: 23px; padding-bottom: 5px">
-                    
-                        <a href="buscar.html"><span class="p-2 mbr-iconfont mobi-mbri-search mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 30px;"></span></a>
-                    
-                    
-                    
-                    
-                </div>
-                
-            </div>
-        </div>
-    </nav>
 </section>
 
 <section data-bs-version="5.1" class="mbr-section cid-tflbudU8kR" once="Dentaura Preloader" id="preloader13-4p">
